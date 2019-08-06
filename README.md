@@ -6,5 +6,14 @@
     - Cú pháp: git clone https://github.com/hohuypn/demo.git
 4. Tạo branch (Mỗi thành viên trong nhóm sẽ có một branch để làm việc, tránh bị xung đột code khi đang làm):
     - Cú pháp: git branch + tên branch
-    VD: git branch user
+    - VD: git branch user
+5. push: dùng lệnh này để đẩy code lên git
+    - Cú pháp: git push
+6. commit: dùng lệnh commit để viết nội dung mình vừa đầy lên là phần nào trong đồ án
+    - Ví dụ: git commit - m "register". Mục đích lệnh là để mô tả cho các thành viên khác biết là thành viên nào đó đang đẩy lên phần đăng ký của đồ án
+    - Cú pháp: git commit -m + nội dung message. -m ở đây có nghĩa là message, cái tin nhắn mình muốn show ra cho người khác biết
+7. pull: Lệnh này dùng để kéo file trên git về máy local
+    - Ví dụ: kéo file register mới push lên git để làm việc
+    - Cú pháp: git pull origin + tên nhánh
+8. 
     
