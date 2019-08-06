@@ -1,4 +1,4 @@
-# Hướng dẫn sử GIT
+# Hướng dẫn sử dụng GIT
 1. Tải git và cài đặt git bash về máy. Link cài đặt git bash https://gitforwindows.org/
 2. Tạo một tài khoản github https://github.com/
 3. Tạo mới một repository.
