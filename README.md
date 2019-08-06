@@ -1,5 +1,5 @@
 # Hướng dẫn sử dụng GIT
-1. Tải git và cài đặt git bash về máy. Link cài đặt git bash https://gitforwindows.org/
+1. Tải git và cài đặt git bash về máy. Link cài đặt git bash https://git-scm.com/download/win
 2. Tạo một tài khoản github https://github.com/
 3. Tạo mới một repository.
 3. Clone repository về máy. Trên màn hình làm việc của git bash gõ git clone + địa chỉ
@@ -15,5 +15,11 @@
 7. pull: Lệnh này dùng để kéo file trên git về máy local
     - Ví dụ: kéo file register mới push lên git để làm việc
     - Cú pháp: git pull origin + tên nhánh
-8. 
+8. checkout: tới branch mà chúng ta làm
+    - Ví dụ: Sau khi chúng ta làm xong một chức năng nào đó thì chúng ta sẽ trở về nhánh master thì chúng ta dùng lệnh này
+    - Cú pháp: git checkout + tên nhánh
+9. status: Lệnh này để kiểm tra trạng thái
+    - Cú pháp: git status
+10. merge: Nếu bạn đã chắc chắn đã làm xong phần chức năng mà bạn đảm nhiệm thì lệnh merge được dùng
+    - Cú pháp: git merge + tên nhánh muốn merge
     
