@@ -22,4 +22,5 @@
     - Cú pháp: git status
 10. merge: Nếu bạn đã chắc chắn đã làm xong phần chức năng mà bạn đảm nhiệm thì lệnh merge được dùng
     - Cú pháp: git merge + tên nhánh muốn merge
-    
+11. init: khởi tạo một việc theo dõi repository
+    - Cú pháp: git init
