@@ -1,5 +1,5 @@
 # Hướng dẫn sử dụng GIT
-1. Tải git và cài đặt git bash về máy. Link cài đặt git bash https://git-scm.com/download/win
+1. Tải git và cài đặt git về máy. Link cài đặt git https://git-scm.com/download/win
 2. Tạo một tài khoản github https://github.com/
 3. Tạo mới một repository.
 3. Clone repository về máy. Trên màn hình làm việc của git bash gõ git clone + địa chỉ
