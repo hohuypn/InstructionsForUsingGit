@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng GIT
+﻿# Hướng dẫn sử dụng GIT
 1. Tải git và cài đặt git về máy. Link cài đặt git https://git-scm.com/download/win
 2. Tạo một tài khoản github https://github.com/
 3. Tạo mới một repository.
@@ -24,3 +24,6 @@
     - Cú pháp: git merge + tên nhánh muốn merge
 11. init: khởi tạo một việc theo dõi repository
     - Cú pháp: git init
+12. git add <name> hoặc git add .
+    - git add <name> là add từng file
+    - git add . là add tất cả các file
