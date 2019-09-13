@@ -32,3 +32,14 @@
     -The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in Gemfile.lock.
     -The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in README.
  => Thì cách để không cho nó xuất hiện nữa là: git config core.autocrlf true
+    
+ 14. Khi xuất hiện như thế này:
+ 
+ 
+![2019-09-13 (2)](https://user-images.githubusercontent.com/50701095/64855540-4d0afb00-d64a-11e9-94d8-8d6d2fd3cf5c.png)
+
+
+Thì có thể gõ như sau:
+
+
+![Screenshot_2](https://user-images.githubusercontent.com/50701095/64855634-89d6f200-d64a-11e9-9b62-29418dc7c156.png)
