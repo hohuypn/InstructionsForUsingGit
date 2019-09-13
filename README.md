@@ -27,8 +27,8 @@
 12. git add <name> hoặc git add .
     - git add <name> là add từng file
     - git add . là add tất cả các file
-Nếu khi add hoặc thao tác gì đó có xuất hiện kiểu như sau:
-    The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in Gemfile.
-    The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in Gemfile.lock.
-    The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in README.
+13. Nếu khi add hoặc thao tác gì đó có xuất hiện kiểu như sau:
+    -The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in Gemfile.
+    -The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in Gemfile.lock.
+    -The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in README.
  Thì cách để không cho nó xuất hiện nữa là: git config core.autocrlf true
