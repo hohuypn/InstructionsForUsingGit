@@ -5,8 +5,10 @@
 3. Clone repository về máy. Trên màn hình làm việc của git bash gõ git clone + địa chỉ
     - Cú pháp: git clone https://github.com/hohuypn/demo.git
 4. Tạo branch (Mỗi thành viên trong nhóm sẽ có một branch để làm việc, tránh bị xung đột code khi đang làm):
-    - Cú pháp: git branch + tên branch
+    - Cú pháp: git branch + tên tên nhánh
     - VD: git branch user
+    Hoặc
+    - git checkout -b + tên nhánh
 5. push: dùng lệnh này để đẩy code lên git
     - Cú pháp: git push
 6. commit: dùng lệnh commit để viết nội dung mình vừa đầy lên là phần nào trong đồ án
