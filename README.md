@@ -45,3 +45,27 @@ Thì có thể gõ như sau:
 
 
 ![Screenshot_2](https://user-images.githubusercontent.com/50701095/64855634-89d6f200-d64a-11e9-9b62-29418dc7c156.png)
+
+
+Tạo một tài khoản trên GITHUB
+Tạo một thùng chứa đồ án (repository)
+Tải và cài đặt GIT về máy local
+Clone đồ án mới tạo về local
+Cú pháp: git clone . URL là địa chỉ repository mà các bạn mới tạo
+Thêm task mới làm xong vào git
+git add . (Lệnh này là add tất cả nhưng thay đổi trong thư mục)
+git add <tên file cần add>. (Lệnh này là add tất cả các thay đổi)
+Kiểm tra trạng thái nó thay đổi bằng cú pháp: git status khi file mới làm đã chuyển sang màu xang thì ok
+Xác nhận muốn đẩy lên github với cú pháp: git commit -m "". Lệnh này để xác nhận trước khi muốn đẩy lên web
+push đồ án lên github với cú pháp: git push. khi push xong kiểm tra tiếp nếu nhánh đó đã clean thì ok
+Người tiếp theo trong nhóm sẽ pull đồ án về bằng cú pháp: git pull origin <tên nhánh>
+Tạo nhánh riêng để làm việc: cú pháp tạo nhánh: git branch <tên nhánh>
+Tạo xong nhánh thì checkout tới nhanh đó để làm việc với cú pháp: git checkout <tên nhánh>
+Mỗi người làm xong task của mình thì đẩy lên github để lần sau làm, tránh trường hợp mất code.
+Sau khi hoàn thành tất cả task trong nhánh của mình thì merge tới master. Tức là chuyển nhánh đó làm về nhánh master
+Fix lỗi khi không thể clone đồ án về local: git config --global http.proxy "192.168.101.253:3128"
+Fix lỗi khi không thể push đồ án lên github: Khi đang ở nhánh master:
+git pull --rebase
+git push Khi đang ở nhánh dev
+git pull --rebase origin master
+git push origin master
