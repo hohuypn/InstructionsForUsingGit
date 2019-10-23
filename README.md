@@ -38,6 +38,13 @@
  14. Khi xuất hiện như thế này:
  
  
+ ![Screenshot_1](https://user-images.githubusercontent.com/50701095/67384062-a60b6e80-f5ba-11e9-9b37-36fee904eb04.png)
+ 
+ 
+ => Fix:  git config core.autocrlf true
+
+ 
+ 
 ![2019-09-13 (2)](https://user-images.githubusercontent.com/50701095/64855540-4d0afb00-d64a-11e9-94d8-8d6d2fd3cf5c.png)
 
 
@@ -55,3 +62,4 @@ Thì có thể gõ như sau:
  - git push Khi đang ở nhánh dev
  -  git pull --rebase origin master
  - git push origin master
+14. Lỗi khi add
