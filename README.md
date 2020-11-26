@@ -42,9 +42,7 @@
  
  
  => Fix:  git config core.autocrlf true
- 15. Trước khi commit một repository lên git thì cần config tại local trước:
-     - git config --global user.name "hohuypn"
-     - git config --global user.email "huy.ho@student.passerellesnumeriques.org"
+ 
 
  
  
@@ -66,3 +64,7 @@ Thì có thể gõ như sau:
  -  git pull --rebase origin master
  - git push origin master
 14. Lỗi khi add
+
+16. Trước khi commit một repository lên git thì cần config tại local trước:
+     - git config --global user.name "hohuypn"
+     - git config --global user.email "huy.ho@student.passerellesnumeriques.org"
