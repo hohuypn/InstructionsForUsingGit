@@ -42,6 +42,9 @@
  
  
  => Fix:  git config core.autocrlf true
+ 15. Trước khi commit một repository lên git thì cần config tại local trước:
+     - git config --global user.name "hohuypn"
+     - git config --global user.email "huy.ho@student.passerellesnumeriques.org"
 
  
  
